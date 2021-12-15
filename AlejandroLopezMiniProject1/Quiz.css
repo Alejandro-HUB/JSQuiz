@@ -1,0 +1,209 @@
+.Map {
+    top: 40px;
+    left: 40px;
+    position: absolute;
+    width: 450px;
+    height: 700px;
+    z-index:1;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/a8/26/c9/a826c997470c719bbcc1c3df9a0ed09d.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 0;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    background: rgb(0, 0, 139); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 139, 0.5);
+}
+
+.Colombia {
+    position: absolute;
+    left: 116px;
+    right: 116px;
+    width: 90px;
+    height: 140px;
+    top: 98px;
+    bottom: 98px;
+    z-index: 2;
+}
+
+.Venezuela {
+    position: absolute;
+    left: 151px;
+    right: 151px;
+    width: 104px;
+    height: 93px;
+    top: 99px;
+    bottom: 99px;
+    z-index: 2;
+}
+
+.Brazil {
+    position: absolute;
+    left: 163px;
+    right: 163px;
+    width: 280px;
+    height: 340px;
+    top: 147px;
+    bottom: 147px;
+    z-index: 2;
+}
+
+.Ecuador {
+    position: absolute;
+    left: 107px;
+    right: 107px;
+    width: 42px;
+    height: 55px;
+    top: 204px;
+    bottom: 204px;
+    z-index: 2;
+}
+
+.Peru {
+    position: absolute;
+    left: 108px;
+    right: 108px;
+    width: 99px;
+    height: 160px;
+    top: 207px;
+    bottom: 207px;
+    z-index: 2;
+}
+
+.Bolivia {
+    position: absolute;
+    left: 189px;
+    right: 189px;
+    width: 104px;
+    height: 117px;
+    top: 282px;
+    bottom: 282px;
+    z-index: 2;
+}
+
+.Paraguay {
+    position: absolute;
+    left: 254px;
+    right: 254px;
+    width: 59px;
+    height: 70px;
+    top: 360px;
+    bottom: 360px;
+    z-index: 2;
+}
+
+.Uruguay {
+    position: absolute;
+    left: 288px;
+    right: 288px;
+    width: 40px;
+    height: 47px;
+    top: 452px;
+    bottom: 452px;
+    z-index: 2;
+}
+
+.Argentina {
+    position: absolute;
+    left: 213px;
+    right: 213px;
+    width: 107px;
+    height: 290px;
+    top: 380px;
+    bottom: 380px;
+    z-index: 2;
+}
+
+.Chile {
+    position: absolute;
+    left: 200px;
+    right: 200px;
+    width: 54px;
+    height: 320px;
+    top: 352px;
+    bottom: 352px;
+    z-index: 2;
+}
+
+.Center {
+    position: absolute;
+    left: 800px;
+    right: 800px;
+    text-align: center;
+}
+
+.Question {
+    position: relative;
+    text-align: left;
+    width: max-content;
+    height: max-content;
+    font-size: 25px;
+    background: rgb(0, 0, 139); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 139, 0.5);
+    color: white;
+}
+
+.Finish {
+    position: absolute;
+    left: 1100px;
+    right: 1100px;
+    top: 147px;
+    bottom: 147px;
+    width: max-content;
+    height: max-content;
+}
+
+.perfect {
+    color: gold;
+    font-size: 25px;
+}
+
+.pass {
+    color: green;
+    font-size: 25px;
+}
+
+.fail {
+    color: red;
+    font-size: 25px;
+}
+
+.Status {
+    position: relative;
+    text-align: left;
+    background: rgb(0, 0, 139); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 139, 0.5);
+    color: white;
+    font-size: 25px;
+    height: min-content;
+    width: 280px;
+}
+
+.part_line {
+    position: relative;
+    display: inline-grid;
+    grid-template-rows: 2em;
+    grid-template-columns: 1fr auto;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    border-bottom: solid 6px mediumblue;
+    border-left: solid 6px mediumblue;
+    color: mediumblue;
+    transition: .4s;
+    width: 100px;
+    height: 50px;
+}
+
+    .part_line:hover {
+        padding-left: 0.7em;
+        padding-right: 0.3em;
+    }
